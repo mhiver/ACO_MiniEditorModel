@@ -16,7 +16,7 @@ public class ChangeSelection implements Command
 	 * @ordered
 	 */
 	
-	public int start;
+	private int start;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -25,7 +25,7 @@ public class ChangeSelection implements Command
 	 * @ordered
 	 */
 	
-	public int end;
+	private int end;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -34,7 +34,7 @@ public class ChangeSelection implements Command
 	 * @ordered
 	 */
 	
-	public EditorEngine editorEngine;
+	private EditorEngine editorEngine;
 	
 	/**
 	 * <!-- begin-user-doc -->

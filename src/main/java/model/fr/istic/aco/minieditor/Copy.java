@@ -16,7 +16,7 @@ public class Copy implements Command
 	 * @ordered
 	 */
 	
-	public EditorEngine editorEngine;
+	private EditorEngine editorEngine;
 	
 	/**
 	 * <!-- begin-user-doc -->

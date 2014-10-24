@@ -16,7 +16,7 @@ public class AppEditor
 	 * @ordered
 	 */
 	
-	public EditorEngine editorEngine;
+	private EditorEngine editorEngine;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -25,7 +25,7 @@ public class AppEditor
 	 * @ordered
 	 */
 	
-	public UI uI;
+	private UI uI;
 	
 	/**
 	 * <!-- begin-user-doc -->

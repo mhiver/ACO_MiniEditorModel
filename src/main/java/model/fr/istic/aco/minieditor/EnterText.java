@@ -16,7 +16,7 @@ public class EnterText implements Command
 	 * @ordered
 	 */
 	
-	public String text;
+	private String text;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -25,7 +25,7 @@ public class EnterText implements Command
 	 * @ordered
 	 */
 	
-	public EditorEngine editorEngine;
+	private EditorEngine editorEngine;
 	
 	/**
 	 * <!-- begin-user-doc -->

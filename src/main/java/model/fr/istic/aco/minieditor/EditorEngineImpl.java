@@ -16,7 +16,7 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public Buffer buffer;
+	private Buffer buffer;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -25,7 +25,7 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public Clipboard clipboard;
+	private Clipboard clipboard;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -34,7 +34,7 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public Selection selection;
+	private Selection selection;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -44,33 +44,6 @@ public class EditorEngineImpl implements EditorEngine
 	 */
 	
 	public AppEditor appEditor;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public ChangeSelection changeSelection;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public Copy copy;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public Cut cut;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -89,6 +62,33 @@ public class EditorEngineImpl implements EditorEngine
 	 */
 	
 	public Paste paste;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public Copy copy;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public Cut cut;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public ChangeSelection changeSelection;
 	
 	/**
 	 * <!-- begin-user-doc -->
