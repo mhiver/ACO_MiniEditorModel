@@ -16,7 +16,7 @@ public class Clipboard
 	 * @ordered
 	 */
 	
-	public EditorEngineImpl editorEngineImpl;
+	private EditorEngineImpl editorEngineImpl;
 	
 	/**
 	 * <!-- begin-user-doc -->

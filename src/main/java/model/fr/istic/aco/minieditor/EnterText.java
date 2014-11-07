@@ -34,7 +34,7 @@ public class EnterText implements Command
 	 * @ordered
 	 */
 	
-	public UI uI;
+	private UI uI;
 	
 	/**
 	 * <!-- begin-user-doc -->

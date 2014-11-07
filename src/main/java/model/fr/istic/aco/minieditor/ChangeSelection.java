@@ -43,7 +43,7 @@ public class ChangeSelection implements Command
 	 * @ordered
 	 */
 	
-	public UI uI;
+	private UI uI;
 	
 	/**
 	 * <!-- begin-user-doc -->
