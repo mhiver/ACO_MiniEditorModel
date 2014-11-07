@@ -43,8 +43,8 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public AppEditor appEditor;
-	
+	public EnterText enterText;
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -61,16 +61,7 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public ChangeSelection changeSelection;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public EnterText enterText;
+	public Cut cut;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -88,7 +79,16 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public Cut cut;
+	public AppEditor appEditor;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public ChangeSelection changeSelection;
 	
 	/**
 	 * <!-- begin-user-doc -->
