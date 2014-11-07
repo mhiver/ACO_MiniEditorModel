@@ -44,7 +44,7 @@ public class Cut implements Command
 	 */
 	
 	public void execute() {
-		editorEngine.cut();
+		// TODO implement me	
 	}
 	
 }

@@ -44,7 +44,7 @@ public class Copy implements Command
 	 */
 	
 	public void execute() {
-		editorEngine.copy();
+		// TODO implement me	
 	}
 	
 }

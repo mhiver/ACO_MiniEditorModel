@@ -44,7 +44,7 @@ public class Paste implements Command
 	 */
 	
 	public void execute() {
-		editorEngine.paste();
+		// TODO implement me	
 	}
 	
 }
