@@ -43,7 +43,25 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public EnterText enterText;
+	public Paste paste;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public Copy copy;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public Cut cut;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -70,25 +88,7 @@ public class EditorEngineImpl implements EditorEngine
 	 * @ordered
 	 */
 	
-	public Cut cut;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public Paste paste;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public Copy copy;
+	public EnterText enterText;
 	
 	/**
 	 * <!-- begin-user-doc -->
